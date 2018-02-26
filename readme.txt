@@ -10,6 +10,11 @@ git add readme.txt
 
 第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
 第二步，使用命令git commit，完成。
-$ git add file1.txt
-$ git add file2.txt file3.txt
-$ git commit -m "add 3 files."
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m "add 3 files."
+
+如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+修改后提交
+git add file1.txt
+git commit -m "something."
