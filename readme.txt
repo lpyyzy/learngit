@@ -58,3 +58,5 @@ git push -u origin master
 
 
 git push origin master
+
+git clone git@github.com:lpyyzy/gitskills.git
