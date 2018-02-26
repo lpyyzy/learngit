@@ -60,3 +60,17 @@ git push -u origin master
 git push origin master
 
 git clone git@github.com:lpyyzy/gitskills.git
+
+
+首先，我们创建dev分支，然后切换到dev分支：
+git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令
+git branch dev
+git checkout dev
+然后，用git branch命令查看当前分支：
+git branch
+
+
+
+git merge命令用于合并指定分支到当前分支
+git merge dev
