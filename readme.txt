@@ -27,3 +27,10 @@ git commit -m "something."
 当你用$ git reset --hard HEAD^回退到add distributed版本时，
 再想恢复到append GPL，就必须找到append GPL的commit id。
 Git提供了一个命令git reflog用来记录你的每一次命令：
+
+场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，
+用命令git checkout -- file。
+
+场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，
+想丢弃修改，分两步，第一步用命令git reset HEAD file，
+就回到了场景1，第二步按场景1操作。
