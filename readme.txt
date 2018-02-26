@@ -70,7 +70,20 @@ git checkout dev
 然后，用git branch命令查看当前分支：
 git branch
 
-
-
 git merge命令用于合并指定分支到当前分支
 git merge dev
+
+合并完成后，就可以放心地删除dev分支了
+git branch -d dev
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
